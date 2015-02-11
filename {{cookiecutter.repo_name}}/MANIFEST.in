@@ -3,7 +3,6 @@ graft examples
 graft src
 graft tests
 
-include *.komodoproject
 include .bumpversion.cfg
 include .coveragerc
 include .isort.cfg

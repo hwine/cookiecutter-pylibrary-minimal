@@ -1,14 +1,14 @@
 {
-    "full_name": "Ionel Cristian Maries",
-    "email": "contact@ionelmc.ro",
-    "website": "http://blog.ionelmc.ro",
-    "github_username": "ionelmc",
-    "project_name": "Nameless",
-    "repo_name": "python-nameless-minimal",
-    "package_name": "nameless",
-    "distribution_name": "nameless-minimal",
-    "project_short_description": "An example package. Replace this with a proper project description. Generated with https://github.com/ionelmc/cookiecutter-pylibrary-minimal",
-    "release_date": "2014-06-10",
-    "year": "2014",
-    "version": "0.1.0"
+    "full_name": "For Copyright & author",
+    "email": "me@example.com",
+    "website": "http://www.mozilla.com/",
+    "github_username": "",
+    "project_name": "my_project name",
+    "repo_name": "my_repo",
+    "package_name": "py_name",
+    "distribution_name": "PyPi Name",
+    "project_short_description": "short name",
+    "release_date": "unreleased",
+    "year": "2015",
+    "version": "0.0.0"
 }

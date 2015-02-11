@@ -26,9 +26,9 @@ setup(
     author="{{ cookiecutter.full_name }}",
     author_email="{{ cookiecutter.email }}",
     url="https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}",
-    packages=find_packages("src"),
-    package_dir={"": "src"},
-    py_modules=[splitext(basename(i))[0] for i in glob.glob("src/*.py")],
+    packages=find_packages("."),
+    package_dir={"": "."},
+    py_modules=[splitext(basename(i))[0] for i in glob.glob("./*.py")],
     include_package_data=True,
     zip_safe=False,
     classifiers=[
