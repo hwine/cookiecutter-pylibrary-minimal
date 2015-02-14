@@ -1,16 +1,17 @@
-======================
-cookiecutter-pylibrary
-======================
+=============================
+cookiecutter-releng-pylibrary
+=============================
 
-`Cookiecutter <https://github.com/audreyr/cookiecutter>`_ template for a Python python library. This is largely designed
-to address this `blog post about packaging python libraries <http://blog.ionelmc.ro/2014/05/25/python-packaging/>`_.
-
-There's a bare library using this template (if you're curious about the final result): https://github.com/ionelmc/python-nameless-minimal.
+`Cookiecutter <https://github.com/audreyr/cookiecutter>`_ template for a
+Python python library. This is largely designed to address this `blog
+post about packaging python libraries
+<http://blog.ionelmc.ro/2014/05/25/python-packaging/>`_. Some
+modifications were made for the Mozilla Release Engineering team.
 
 Features
 --------
 
-* BSD 2-clause license.
+* Mozilla Public License
 * Tox_ for testing Python 2.6, 2.7, 3.3, PyPy etc. 
 * Travis-CI_ and Coveralls_ for continuous testing and coverage tracking (using Tox_).
 * Documentation with Sphinx_, ready for ReadTheDocs_.
@@ -33,7 +34,7 @@ Usage
 
 Generate your project::
 
-    cookiecutter https://github.com/ionelmc/cookiecutter-pylibrary-minimal.git
+    cookiecutter https://github.com/hwine/cookiecutter-releng-pylibrary
 
 ..
 
@@ -55,7 +56,7 @@ project)::
     git init .
     git add .
     git commit -m "Initial skel."
-    git remote add origin git@github.com:ionelmc/python-nameless.git
+    git remote add origin git@github.com:${github_user_name}/${new_repo_name}
     git push -u origin master
 
 Then:
